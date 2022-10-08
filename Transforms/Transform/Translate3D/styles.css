@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main_container {
+    border-radius: 15px;
+    background-color: orange;
+    height: 90vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.sets{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.means{
+    background-color: white;
+    height: 70%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.panel{
+    background-color: white;
+    margin-top: 5px;
+    height: 30%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model{
+    border-radius: 15px;
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    cursor: pointer;
+    background-color: darkred;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.translate{
+    /*transform: perspective(200px) translate3d(42px, -62px, -135px);*/
+                                            /* X     Y      Z*/
+    transform: perspective(20px) translate3d(-100px, 0px, -10px);
+}
+
+.run {
+    background-color: #033d81;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.run:hover{
+    opacity: 90%;
+    transition-duration: 0.3s;
+}

@@ -10,13 +10,35 @@
     <main class="main_container">
         <section class="sets">
             <code class="means">
-
+                <strong>CSS - Code</strong><br/>
+                .item {<br/>
+                cursor: pointer;<br/>
+                background-color: darkred;<br/>
+                height: 100px;<br/>
+                width: 100px;<br/>
+                border-radius: 50%;<br/>
+                }<br/>
+                <br/>
+                .translate{<br/>
+                transform: translate(200px);<br/>
+                }<br/>
+                <br/>
+                <strong>Javascript - Code</strong><br/>
+                let runbtn = document.querySelector(".run");<br/>
+                let item = document.querySelector(".item");<br/>
+                <br/>
+                runbtn.addEventListener("click", () => {<br/>
+                item.classList.toggle("translate");<br/>
+                })<br/>
+                <br/>
             </code>
             <div class="panel">
-
+                <button class="run">Execute</button>
             </div>
         </section>
-        <section class="model"></section>
+        <section class="model">
+            <div class="item"></div>
+        </section>
     </main>
     <!--Javascript-->
     <script src="./index.js"></script>

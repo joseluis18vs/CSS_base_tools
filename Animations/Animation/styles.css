@@ -36,6 +36,7 @@ body {
     background-color: white;
     height: 70%;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .panel{
@@ -43,6 +44,9 @@ body {
     margin-top: 5px;
     height: 30%;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .model{
@@ -50,4 +54,34 @@ body {
     background-color: white;
     height: 90%;
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    cursor: pointer;
+    background-color: darkred;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.translate{
+    transform: translate(200px);
+}
+
+.run {
+    background-color: #033d81;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.run:hover{
+    opacity: 90%;
+    transition-duration: 0.3s;
 }

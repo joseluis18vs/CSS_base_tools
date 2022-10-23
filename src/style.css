@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    border: 1px black solid;
+    min-height: 100px;
+}
